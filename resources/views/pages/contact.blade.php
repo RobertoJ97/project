@@ -9,13 +9,15 @@
 
           <div class="info mt-4">
             <h3 class="text-success">Contactanos!!!</h3>
-            <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p>
+            <p>Para una cotizacion gratis,por favor contactenos ya sea mediante nuestro telefono
+                o nuestro correo electronico.
+            </p>
 
             <div class="info-item d-flex">
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Correo Electronico:</h4>
-                <a>info@example.com</a>
+                <a href="mailto:digiwebsolutions24@gmail.com">digiwebsolutions24@gmail.com</a>
               </div>
             </div><!-- End Info Item -->
 
@@ -23,14 +25,11 @@
               <i class="bi bi-phone flex-shrink-0"></i>
               <div>
                 <h4>Consulta Gratis:</h4>
-                <a>+1 (561) 412-7451</a>
+                <a href="https://wa.me/15614127451">+1 (561) 412-7451</a>
               </div>
             </div><!-- End Info Item -->
-
           </div>
-
         </div>
-
         <div class="col-lg-8">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="row">

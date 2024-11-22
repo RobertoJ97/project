@@ -2,7 +2,7 @@
     <section id="blog-posts" class="blog-posts section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2 class="text-success">Our Projects</h2>
+        <h2 class="text-success">Nuestros Proyectos</h2>
 
       </div><!-- End Section Title -->
       <div class="container">
@@ -10,7 +10,7 @@
         <div class="row gy-4">
           <div class="col-md-6 col-lg-4">
             <div class="post-entry" data-aos="fade-up" data-aos-delay="100">
-              <a href="#" class="thumb d-block"><img src="assets/img/img_h_4.jpg" alt="Image" class="img-fluid rounded"></a>
+              <a href="https://www.constructionxllc.net/" class="thumb d-block"><img style="height: 300px !important; width:400px !important;" src="{{ asset('assets/img/construction.jpeg') }}" alt="Image" class="img-fluid rounded"></a>
 
               <div class="post-content">
                 <div class="meta">
@@ -28,7 +28,7 @@
                    <div class="border-bottom"></div>
                 <div class="d-flex author align-items-center mt-1">
                   <div class="pic">
-                    <img src="assets/img/team/team-3.jpg" alt="Image" class="img-fluid rounded-circle">
+                    <img style="width:60px !important; height:60px !important;" src="{{ asset('assets/img/roberto.jpeg') }}" alt="Image" class="img-fluid rounded-circle">
                   </div>
                   <div class="author-name">
                     <strong class="d-block">Roberto Ramirez</strong>
@@ -42,7 +42,7 @@
 
           <div class="col-md-6 col-lg-4">
             <div class="post-entry" data-aos="fade-up" data-aos-delay="200">
-              <a href="#" class="thumb d-block"><img src="assets/img/img_h_2.jpg" alt="Image" class="img-fluid rounded"></a>
+              <a href="https://github.com/RobertoJ97/Ecommerce" class="thumb d-block"><img style="height: 300px !important; width:400px !important;" src="{{ asset('assets/img/ecommerce.jpeg') }}" alt="Image" class="img-fluid rounded"></a>
 
               <div class="post-content">
                 <div class="meta">
@@ -60,11 +60,11 @@
                     <div class="border-bottom"></div>
                  <div class="d-flex author align-items-center mt-1">
                   <div class="pic">
-                    <img src="assets/img/team/team-2.jpg" alt="Image" class="img-fluid rounded-circle">
+                    <img style="width:60px !important; height:60px !important;" src="{{ asset('assets/img/roberto.jpeg') }}" alt="Image" class="img-fluid rounded-circle">
                   </div>
                   <div class="author-name">
-                    <strong class="d-block">Winston Gold</strong>
-                    <span class="">Lead Product Designer</span>
+                    <strong class="d-block">Roberto Ramirez</strong>
+                    <span class="">Full Stack Desarrollador Web</span>
                   </div>
                 </div>
               </div>

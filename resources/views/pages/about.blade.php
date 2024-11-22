@@ -45,10 +45,10 @@
             </div>
           </div>
           <div class="col-lg-4 order-lg-1">
-            <h1 class="border-bottom text-success" data-aos="fade-up">Bienvenidos a Conect360</h1>
+            <h1 class="border-bottom text-success" data-aos="fade-up">DigiWebSolutions</h1>
 
             <p class="mt-3"  data-aos="fade-up">
-             En Conect360 estamos dedicados ayudar a pequeñas y medianas empresas a crecer en el entorno digital.
+             En DigiWeb Solutions estamos dedicados ayudar a pequeñas y medianas empresas a crecer en el entorno digital.
              Nuestro equipo combina creatividad, innovacion y estrategia para desarrollar soluciones web personalizadas
              y efectivas en marketing digital. Sabemos que cada empresa es unica, por eso diseñamos cada proyecto pensando
              en tus necesidades y objetivos especificos.

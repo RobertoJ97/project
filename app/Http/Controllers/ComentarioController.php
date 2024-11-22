@@ -12,7 +12,7 @@ class ComentarioController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -20,7 +20,7 @@ class ComentarioController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.comentario');
     }
 
     /**
@@ -28,7 +28,23 @@ class ComentarioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $coment=new Comentario();
+        $request->validate([
+          'nombre'=>'required|max:30',
+          'mensaje'=>'required| max:255',
+          'image'=>'required|image'
+        ]);
+       if($request->hasFile('image')){
+        $file=$request->file('image');
+        $destinationPath='public/asset/img';
+        $filename= time() . '-' . $file->getClientOriginalExtension();
+        $uploadSuccess=$request->file('image')->move($destinationPath, $filename);
+        $coment->image=$destinationPath . $filename;
+       }
+       $coment->nombre=$request->nombre;
+       $coment->mensaje=$request->mensaje;
+       $coment->save();
+        return redirect()->route('home');
     }
 
     /**

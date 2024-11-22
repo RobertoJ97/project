@@ -9,9 +9,11 @@
               <i class="bi bi-boxes"></i>
             </div>
             <div>
-              <h3>Dominio y Hosting</h3>
-              <p>Ofrecemos dominio y hosting gratuitos durante el primer ano asegurandonos
-                de que tu sitio este siempre disponible y funcione sin interrupciones.</p>
+              <h3>Tarjeta de presentacion</h3>
+              <p>
+                Creamos diseños modernos, creativos y con estandares de lata calidad especificamente para
+                reflejar la identidad  y valores de tu negocio.
+              </p>
             </div>
           </div>
         </div>
@@ -23,7 +25,7 @@
             </div>
             <div>
               <h3>Desarrollo Web</h3>
-              <p>Desarrollamos su sitio web desde los primeros inicios basandonos en los requisitos
+              <p>Desarrollamos su sitio web desde los primeros inicios, basandonos en los requisitos
                 de los clientes bajo estandares de calidad y funcionalidad.
               </p>
             </div>
@@ -36,8 +38,8 @@
               <i class="bi bi-layout-text-sidebar-reverse"></i>
             </div>
             <div>
-              <h3>Diseno Web</h3>
-              <p>Disenamos sitios web modernos adaptable a cualquier dispositivo, garantizando que la experiencia de usuario
+              <h3>Diseño Web</h3>
+              <p>Diseñamos sitios web modernos adaptable a cualquier dispositivo, garantizando que la experiencia de usuario
                 sea optima en computadoras, tablets y moviles.
               </p>
             </div>
@@ -64,16 +66,17 @@
 
     <div class="container">
       <div class="row gap-x-lg-4 justify-content-between">
-        <div class="col-lg-4 js-custom-dots">
+        <div class="col-lg-5 js-custom-dots">
           <a href="#" class="service-item link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
             <div class="service-icon color-1 mb-4">
               <i class="bi bi-boxes"></i>
             </div>
             <!-- /.icon -->
             <div class="service-contents">
-              <h3>Dominio y Hosting Gratis</h3>
+              <h3>Tarjeta de presentacion</h3>
               <p>
-                Ofrecemos dominio y hosting gratuitos durante el primer ano.
+                Creamos diseños modernos, creativos y con estandares de lata calidad especificamente para
+                reflejar la identidad  y valores de tu negocio.
               </p>
             </div>
             <!-- /.service-contents-->
@@ -102,9 +105,9 @@
             </div>
             <!-- /.icon -->
             <div class="service-contents">
-              <h3>Diseno Web</h3>
+              <h3>Diseño Web</h3>
               <p>
-                Disenamos sitios web modernos adaptable a cualquier dispositivo, garantizando que la experiencia de usuario
+                Diseñamos sitios web modernos adaptable a cualquier dispositivo, garantizando que la experiencia de usuario
                 sea optima.
               </p>
             </div>
@@ -129,7 +132,7 @@
           <!-- /.service -->
         </div>
 
-        <div class="col-lg-8">
+        <div class="col-lg-7 service-swiper">
           <div class="swiper init-swiper-tabs">
             <script type="application/json" class="swiper-config">
               {
@@ -158,18 +161,17 @@
               }
             </script>
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="assets/img/img_h_1.jpg" alt="Image" class="img-fluid">
-
+              <div class="swiper-slide ">
+                <img src="assets/img/1.avif" alt="Image" class="img-fluid w-100">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/img_h_2.jpg" alt="Image" class="img-fluid">
+                <img src="assets/img/2.jpg" alt="Image" class="img-fluid w-100">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/img_h_3.jpg" alt="Image" class="img-fluid">
+                <img src="assets/img/3.jpg" alt="Image" class="img-fluid w-100">
               </div>
               <div class="swiper-slide">
-                <img src="assets/img/img_h_4.jpg" alt="Image" class="img-fluid">
+                <img src="assets/img/4.jpeg" alt="Image" class="img-fluid w-100">
               </div>
             </div>
           </div>

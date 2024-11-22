@@ -5,11 +5,12 @@
           <div class="widget">
             <h3 class="widget-heading ">Sobre nosotros</h3>
             <p class="mb-4">
-              There live the blind texts. Separated they live in Bookmarksgrove
-              right at the coast of the Semantics, a large language ocean.
+                En DigiWeb Solutions estamos dedicados ayudar a pequenas y medianas empresas a crecer en el entorno digital.
+                Nuestro equipo combina creatividad, innovacion y estrategia para desarrollar soluciones web personalizadas
+                y efectivas en marketing digital.
             </p>
             <p class="mb-0">
-              <a href="#" class="btn-learn-more">Leer mas..</a>
+              <a href="{{ route('about') }}" class="btn-learn-more">Leer mas..</a>
             </p>
           </div>
         </div>
@@ -17,14 +18,13 @@
           <div class="widget">
             <h3 class="widget-heading ">Navigation</h3>
             <ul class="list-unstyled float-start me-5">
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Sobre nosotros</a></li>
-              <li><a href="#">Servicios</a></li>
+                <li><a href="{{ route('home') }}" class="active">Inicio</a></li>
+                <li><a href="{{ route('about') }}">Sobre Nosotros</a></li>
+                <li><a href="{{ route('services') }}">Servicios</a></li>
             </ul>
             <ul class="list-unstyled float-start">
-              <li><a href="#">Projectos</a></li>
-              <li><a href="#">Marketing Digital</a></li>
-              <li><a href="#">Contactenos</a></li>
+                <li><a href="{{ route('project') }}">Proyectos</a></li>
+                <li><a href="{{ route('contact') }}">Contactanos</a></li>
             </ul>
           </div>
         </div>
@@ -34,11 +34,11 @@
             <ul class="list-unstyled footer-blog-entry">
               <li>
                 <span class="d-block date">Telefono</span>
-                <a href="#">+1 (561) 412-7451</a>
+                <a href="https://wa.me/15614127451">+1 (561) 412-7451</a>
               </li>
               <li>
                 <span class="d-block date">Correo Electronico</span>
-                <a href="#">Separated they live in Bookmarksgrove right</a>
+                <a href="mailto:digiwebsolutions24@gmail.com">digiwebsolutions24@gmail.com</a>
               </li>
             </ul>
           </div>
@@ -55,7 +55,7 @@
               </li>
 
               <li>
-                <a href="#"><span class="bi bi-instagram"></span></a>
+                <a href="https://www.instagram.com/digi_web_solution/profilecard/?igsh=NmlybzMxd2N2Zmtl"><span class="bi bi-instagram"></span></a>
               </li>
               <li>
                 <a href="#"><span class="bi bi-tiktok"></span></a>
@@ -74,7 +74,7 @@
           <!-- You can delete the links only if youve purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">Conect360</a>
+          Designed by <a href="https://bootstrapmade.com/">DigiWeb Solutions</a>
         </div>
       </div>
     </div>

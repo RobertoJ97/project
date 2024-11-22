@@ -1,9 +1,14 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - Active Bootstrap Template</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <title>DigiWeb Solutions</title>
+    <meta name="description" content="En DigiWeb Solutions estamos dedicados ayudar a pequeñas y
+            medianas empresas a crecer en el entorno digital.
+             Nuestro equipo combina creatividad, innovacion y estrategia para desarrollar soluciones web personalizadas
+             y efectivas en marketing digital.">
+    <meta name="keywords" content="design web,web development,diseño web,desarrollo web,marketing digital,
+    pequeños negocios, ganancia de clientes, promocionar su negocio, paginas web,tarjetas de presentacion de negocio, websites
+    construir un sitio web">
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
